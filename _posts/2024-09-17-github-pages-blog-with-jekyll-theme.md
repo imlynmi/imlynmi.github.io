@@ -40,7 +40,7 @@ git clone git@github.com:imlynmi/imlynmi.github.io.git
 timezone: Asia/Seoul    #서울로 시간대를 바꿈
 title: b_lyn.log    #사이트 제목을 수정함
 tagline: 기억에서 사라지기 전에 소소하게 끄적끄적   #사이트 소제목을 수정함
-url: "https://imlynmi.github.io" #제일 중요한 사이트 url를 수정함
+url: "http://imlynmi.github.io" #제일 중요한 사이트 url를 수정함
 ```
 
 수정한 `_config.yml`{: .filepath}를 로컬 테스팅을 위해 아직 commit하지 않다.

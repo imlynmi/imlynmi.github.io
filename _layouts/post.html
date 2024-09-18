@@ -8,6 +8,7 @@ tail_includes:
   - post-nav
   - comments
 ---
+
 {% include lang.html %}
 
 <article class="px-1">
@@ -21,16 +22,14 @@ tail_includes:
       <!-- published date -->
       <span>
         {{ site.data.locales[lang].post.posted }}
-        {% comment %} {% include datetime.html date=page.date tooltip=true lang=lang %} {% endcomment %}
-        {% include datetime.html date=page.date tooltip=false lang=lang %}
+        {% include datetime.html date=page.date tooltip=true lang=lang %}
       </span>
 
       <!-- lastmod date -->
       {% if page.last_modified_at and page.last_modified_at != page.date %}
         <span>
           {{ site.data.locales[lang].post.updated }}
-          {% comment %} {% include datetime.html date=page.last_modified_at tooltip=true lang=lang %} {% endcomment %}
-          {% include datetime.html date=page.last_modified_at tooltip=false lang=lang %}
+          {% include datetime.html date=page.last_modified_at tooltip=true lang=lang %}
         </span>
       {% endif %}
 
