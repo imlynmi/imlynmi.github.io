@@ -16,7 +16,8 @@
     <h1 class="site-title">
       <a href="{{ '/' | relative_url }}">{{ site.title }}</a>
     </h1>
-    <p class="site-subtitle fst-italic mb-0">{{ site.tagline }}</p>
+    {% comment %} <p class="site-subtitle fst-italic mb-0">{{ site.tagline }}</p> {% endcomment %}
+    <p class="site-subtitle mb-0">{{ site.tagline }}</p>
   </header>
   <!-- .profile-wrapper -->
 
@@ -25,7 +26,7 @@
       <!-- home -->
       <li class="nav-item{% if page.layout == 'home' %}{{ " active" }}{% endif %}">
         <a href="{{ '/' | relative_url }}" class="nav-link">
-          <i class="fa-fw fas fa-home"></i>
+          {% comment %} <i class="fa-fw fas fa-home"></i> {% endcomment %}
           <span>{{ site.data.locales[include.lang].tabs.home | upcase }}</span>
         </a>
       </li>
@@ -33,7 +34,7 @@
       {% for tab in site.tabs %}
         <li class="nav-item{% if tab.url == page.url %}{{ " active" }}{% endif %}">
           <a href="{{ tab.url | relative_url }}" class="nav-link">
-            <i class="fa-fw {{ tab.icon }}"></i>
+            {% comment %} <i class="fa-fw {{ tab.icon }}"></i> {% endcomment %}
             {% capture tab_name %}{{ tab.url | split: '/' }}{% endcapture %}
 
             <span>{{ site.data.locales[include.lang].tabs.[tab_name] | default: tab.title | upcase }}</span>
