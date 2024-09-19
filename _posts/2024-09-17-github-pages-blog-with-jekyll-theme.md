@@ -4,7 +4,7 @@ description: Jekyll 테마 Chirpy를 적용해 GitHub Pages가 호스트하는 �
 author: braelyn
 date: 2024-09-17 20:43:25 +0900
 categories: [기술블로그, 놀리터기록]
-tags: [GitHub, GitHub_Pages, Jekyll, Chirpy_Theme, 오답노트, playground, 기록]
+tags: [GitHub, GitHub_Pages, Jekyll, Chirpy_Theme, Jekyll 테마, 오답노트, playground, 기록]
 render_with_liquid: false
 ---
 
