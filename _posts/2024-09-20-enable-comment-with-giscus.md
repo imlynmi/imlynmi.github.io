@@ -3,7 +3,7 @@ title: 블로그에 댓글 기능을 추가하기
 description: GitHub Discussions를 기반을 둔 Giscus를 사용해 무료로 간단하게 블로그에 댓글 기능을 추가하기
 author: braelyn
 date: 2024-09-20 00:23:47 +0900
-categories: [기술블로그, 놀리터기록]
+categories: [기술블로그, 놀이터기록]
 tags: [GitHub, GitHub_Discussions, Chirpy_Theme, Jekyll 테마, playground, 기록, Giscus]
 render_with_liquid: false
 ---

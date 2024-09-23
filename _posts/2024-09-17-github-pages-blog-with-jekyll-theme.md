@@ -3,7 +3,7 @@ title: b_lyn.log 탄생
 description: Jekyll 테마 Chirpy를 적용해 GitHub Pages가 호스트하는 블로그를 배포하는 과정 및 겪은 오류
 author: braelyn
 date: 2024-09-17 20:43:25 +0900
-categories: [기술블로그, 놀리터기록]
+categories: [기술블로그, 놀이터기록]
 tags: [GitHub, GitHub_Pages, Jekyll, Chirpy_Theme, Jekyll 테마, 오답노트, playground, 기록]
 render_with_liquid: false
 ---
