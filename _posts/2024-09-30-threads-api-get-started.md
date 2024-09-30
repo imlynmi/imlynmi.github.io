@@ -16,18 +16,18 @@ API를 활용하는 데 필요한 설정이나 준비 내용은 [**Get Started**
 
 ## 메타앱 만들기
 
-> 먼저 `Meta App`{. :filepath}를 `Threads use case`{. :filepath}로 만들어야 한다.
+> 먼저 `Meta App`{: .filepath}를 `Threads use case`{: .filepath}로 만들어야 한다.
 {: .prompt-warning }
 
-개발자 페이지에 가서 오른쪽 첫 번째 메뉴 `시작하기`{. :filepath}를 선택한다.
+개발자 페이지에 가서 오른쪽 첫 번째 메뉴 `시작하기`{: .filepath}를 선택한다.
 
 ![img-description](/assets/img/post_240930/1.png)
 
-안내에 따라 `Meta for Developers`{. :filepath} 개발자 계정을 생성한다. 기존 페이스북 계정으로 생성해도 좋고, 새로 생성해도 상관없다.
+안내에 따라 `Meta for Developers`{: .filepath} 개발자 계정을 생성한다. 기존 페이스북 계정으로 생성해도 좋고, 새로 생성해도 상관없다.
 
 ![img-description](/assets/img/post_240930/2.png)
 
-그다음 '앱 만들기' 누르고 메타앱을 만든다. 안내에 따라 하면 되는데 여기서 두 번째 메뉴인 '이용 사례'는 `Threads API 액세스`{. :filepath}를 선택해 준다.
+그다음 '앱 만들기' 누르고 메타앱을 만든다. 안내에 따라 하면 되는데 여기서 두 번째 메뉴인 '이용 사례'는 `Threads API 액세스`{: .filepath}를 선택해 준다.
 
 ![img-description](/assets/img/post_240930/3.png)
 
@@ -38,11 +38,11 @@ API를 활용하는 데 필요한 설정이나 준비 내용은 [**Get Started**
 ## 스레드에 관련 권한 부여하기
 
 스레드 사용자 데이터에 접근하고 그 데이터로 다양한 작업을 하기 위해 앱에 아래 권한을 부여해 줘야 한다.
-`앱 맞춤 설정 및 요건`{. :filepath} 1번을 선택하고 권한을 추가한다.
-    - threads_content_publish
-    - threads_manage_insights
-    - threads_manage_replies
-    - threads_read_replies
+`앱 맞춤 설정 및 요건`{: .filepath} 1번을 선택하고 권한을 추가한다.
+- threads_content_publish
+- threads_manage_insights
+- threads_manage_replies
+- threads_read_replies
 
 ![img-description](/assets/img/post_240930/5.png)
 
@@ -52,7 +52,7 @@ API를 활용하는 데 필요한 설정이나 준비 내용은 [**Get Started**
 
 앱을 테스트할 Threads 테스터 계정을 추가해야 한다. 우선 개인 스레드 계정을 쓰겠다.
 
-아래 캡처처럼 `사용자 토큰 생성기`{. :filepath}에서 `Threads 테스터 추가 또는 삭제`{. :filepath}를 선택한다.
+아래 캡처처럼 `사용자 토큰 생성기`{: .filepath}에서 `Threads 테스터 추가 또는 삭제`{: .filepath}를 선택한다.
 
 ![img-description](/assets/img/post_240930/6.png)
 
