@@ -22,7 +22,7 @@ render_with_liquid: false
 
 `node -v`로 설치 상태를 확인할 수 있다.
 
-그 다음으로 샘플앱 README에 따라 `npm install`를 실행한다. `npm`{: .filepath} 설치 상태도 `npm -v`로 확인할 수 있다.
+그 다음으로 샘플앱 README에 따라 `npm install`를 실행한다. 이는 소스코드를 배포한다. `npm`{: .filepath} 설치 상태도 `npm -v`로 확인할 수 있다.
 
 ### 환경 변수
 
@@ -81,7 +81,13 @@ $ choco install mkcert
 $ mkcert --version
 ```
 
-인증서 생성은 `mkcert $HOST`를 실행하면 된다. 
+인증서를 설치한다.
+
+```shell
+$ mkcert -install
+```
+
+샘플앱이 사용하는 호스트(로컬호스트)의 인증서 생성은 `mkcert $HOST`를 실행하면 된다. 
 
 ```shell
 $ mkcert threads-sample.meta
@@ -93,7 +99,9 @@ $ mkcert threads-sample.meta
 
 ## 샘플앱 실행
 
-실행은 매우 간단하다. `npm start` 실행하면 끝이다. 오류가 없으면 앱은 `https://$HOST:8000(https://threads-sample.meta:8000)`{: .filepath}에 실행되고 있다. 👍
+다시 `npm install`를 실행해 앱을 배포한다.
+
+앱 자체 실행은 매우 간단하다. `npm start` 실행하면 끝이다. 오류가 없으면 앱은 `https://$HOST:8000(https://threads-sample.meta:8000)`{: .filepath}에 실행되고 있다. 👍
 
 ![img-description](/assets/img/post_241008/2.png)
 
