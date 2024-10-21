@@ -1,6 +1,6 @@
 ---
 title: 카카오 프로그래머스 기출문제
-description: '2023 KAKAO BLIND RECRUITMENT 기출 문제 첫 번째 문제 - 개인정보 수집 유효기간' 풀어보기
+description: 2023 KAKAO BLIND RECRUITMENT 기출 문제 첫 번째 문제 - 개인정보 수집 유효기간 풀어보기
 author: braelyn
 date: 2024-10-21 22:09:57 +0900
 categories: [기술블로그, 놀이터기록]
